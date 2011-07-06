@@ -1,0 +1,25 @@
+MyAccountManager (MAM)
+----------------------
+A simple python project, to calculate your day-to-day accounts...
+
+How to make it work
+-------------------
+start "python"
+import sys
+sys.path.append ("<basedir_path_to_myAccMgr.py>")
+import myAccMgr
+obj = myAccMgr.MyAccounts()
+or
+#you can give a meaning ful string as the constructor argument
+obj = myAccMgr.MyAccounts ('My January 2011 Account')
+
+#you can see various functions to work with
+dir (obj)
+
+#after adding your expenses and income, you can save the account state to a file
+obj.save('<file_name>')
+
+#to get back the details from the file
+obj.load ('<file_name>')
+obj.displayDetails () #will display the whole state of the account loaded
+
