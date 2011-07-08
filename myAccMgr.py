@@ -6,7 +6,7 @@ takes an optional meaning full name as the constuctor argument"""
 
     FIX_WIDTH = 40
     def __init__ (self, name=''):
-    """name: optional meaning ful string can be given as argument"""
+        """name: optional meaning ful string can be given as argument"""
         super ()
         self._name = name
         self._inc_dict = {}
