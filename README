@@ -23,3 +23,6 @@ obj.save('my_jan_account_2011.txt')
 obj.load ('my_jan_account_2011.txt')
 obj.displayDetails () #will display the whole state of the account loaded
 
+TODO
+----
+to make it act as a standalone project
